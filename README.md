@@ -1,5 +1,7 @@
 # DF40: Toward Next-Generation Deepfake Detection
 
+Welcome to our work *DF40*, for next-generation deepfake detection. 
+
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by-nc/4.0/) ![Release .10](https://img.shields.io/badge/Release-1.0-brightgreen) ![PyTorch](https://img.shields.io/badge/PyTorch-1.11-brightgreen) ![Python](https://img.shields.io/badge/Python-3.7.2-brightgreen)
 
 <div align="center"> 
@@ -8,7 +10,6 @@
   <img src="df40_figs/df40_intro.jpg" style="max-width:60%;">
 </div>
 
-Welcome to our work *DF40*, for next-generation deepfake detection. 
 
 
 <font size=4><b> Table of Contents </b></font>
@@ -91,16 +92,16 @@ Welcome to our work *DF40*, for next-generation deepfake detection.
 |                         | 25        | StyleGAN2     |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EfcmYbPWeC1FkMs2mnpSpkQBCMtODYwuyLMoauHo5KvNSQ?e=UZsjPC)               |     [![stylegan2-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/stylegan2.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/stylegan2.png)            |
 |                         | 26        | StyleGAN3     |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/ERvrO00gex5Eu-ZW_D_hyKEBjhhXa76aqkTTDN8Q34Izpw?e=R5XZ9N)               |     [![stylegan3-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/stylegan3.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/stylegan3.png)            |
 |                         | 27        | StyleGAN-XL   |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/ESM4dEPKYspLjMxzWWlO6owBSGwpNWo4XYUuaCzAdbWPPQ?e=g4T7PS)               |     [![styleganxl-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/styleganxl.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/styleganxl.png)            |
-|                         | 28        | SD-2.1        |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/ESY6AbSIx_hHj-2aLduJrdwBxQwe3U5ANeG0sGFk0PnuOQ?e=Vjwm0n)               |                 |
-|                         | 29        | DDPM          |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EVfM0nmd0-tGgEZXoxM_TVEB-fGjJ1X8VeI_FqfDZGdzDA?e=u9R4nG)               |                 |
-|                         | 30        | RDDM          |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EQLtPwX7-IZKhY20J4h1S4sBc0bpyRn0MdYBcbBTHiupWg?e=cCbfCR)               |                 |
-|                         | 31        | PixArt-$\alpha$ |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/ERnzCPmKchdEqlwnyK5zvxQB4sVFQo6wE_h2zwXLVgSb5A?e=mARXUu)             |                 |
-|                         | 32        | DiT-XL/2      |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/Eb6NICxFafhFq54pRNlM74sB32e9Tq48hvUF53A5tu1I5Q?e=Nefcld)               |                 |
-|                         | 33        | SiT-XL/2      |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EW-3ZFwOh9tPtTvBmpJoHJoBZnLoHv4QS6Bq8CYZPZ5P0w?e=aRBzlv)               |                 |
+|                         | 28        | SD-2.1        |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/ESY6AbSIx_hHj-2aLduJrdwBxQwe3U5ANeG0sGFk0PnuOQ?e=Vjwm0n)               |      [![sd2.1-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/sd2.1.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/sd2.1.png)           |
+|                         | 29        | DDPM          |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EVfM0nmd0-tGgEZXoxM_TVEB-fGjJ1X8VeI_FqfDZGdzDA?e=u9R4nG)               |      [![ddpm-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/ddim.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/ddim.png)           |
+|                         | 30        | RDDM          |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EQLtPwX7-IZKhY20J4h1S4sBc0bpyRn0MdYBcbBTHiupWg?e=cCbfCR)               |      [![rddm-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/rddm.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/rddm.png)           |
+|                         | 31        | PixArt-$\alpha$ |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/ERnzCPmKchdEqlwnyK5zvxQB4sVFQo6wE_h2zwXLVgSb5A?e=mARXUu)             |        [![pixart-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/pixart.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/pixart.png)         |
+|                         | 32        | DiT-XL/2      |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/Eb6NICxFafhFq54pRNlM74sB32e9Tq48hvUF53A5tu1I5Q?e=Nefcld)               |       [![dit-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/dit.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/dit.png)           |
+|                         | 33        | SiT-XL/2      |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EW-3ZFwOh9tPtTvBmpJoHJoBZnLoHv4QS6Bq8CYZPZ5P0w?e=aRBzlv)               |       [![sit-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/sit.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/sit.png)          |
 |                         | 34        | MidJounery6   |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/Ea7gykdNkYxIjdihRkOX-OkB-wfrXRvcyHrL8xO_FrT1Iw?e=kXyI3J)               |      [![mj-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/mj.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/mj.png)           |
 |                         | 35        | WhichisReal   |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EfE0VjMMmhVGhaB3NOKkIewBFelxCqJZjbKWEcSGmbYVEg?e=k6cCAZ)               |      [![vqgan-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/whichisreal.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/whichisreal.png)           |
-| Face Edit (FE)          | 36        | CollabDiff    |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EXYtnmeNlDlHgiMrLoesrZMBfQaDmX-HaN2-o-DVnZBe7Q?e=y5KC3p)               |                 |
-|                         | 37        | e4e           |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EerqA8zZXfpCiuZINnh3PksB8KvKdhuNINJ5mDGraYrkTw?e=wZRPnV)               |                 |
+| Face Edit (FE)          | 36        | CollabDiff    |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EXYtnmeNlDlHgiMrLoesrZMBfQaDmX-HaN2-o-DVnZBe7Q?e=y5KC3p)               |       [![collabdiff-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/collabdiff.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/collabdiff.png)          |
+|                         | 37        | e4e           |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EerqA8zZXfpCiuZINnh3PksB8KvKdhuNINJ5mDGraYrkTw?e=wZRPnV)               |       [![e4e-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/e4e.jpg)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/e4e.jpg)          |
 |                         | 38        | StarGAN       |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/Ea6LPDfiPvROm2QrD9yDvUUBHUVQLOlZW1UjufLblzBUBw?e=eAzmJ8)               |       [![stargan-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/stargan.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/stargan.png)          |
 |                         | 39        | StarGANv2     |               |                 |
 |                         | 40        | StyleCLIP     |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EbKlB_5yBthCrngJl74LSG4BiX6Jwf9ciElzJlD-H-_Vzw?e=eEPuuN)               |       [![styleclip-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/styleclip.png)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/styleclip.png)          |
@@ -139,8 +140,6 @@ sh install.sh
 
 <a href="#top">[Back to top]</a>
 
-**❗️Note**: If you want to directly utilize the data, including frames, landmarks, masks, and more, that I have provided above, you can skip the pre-processing step. **However, you still need to run the rearrangement script to generate the JSON file** for each dataset for the unified data loading in the training and testing process.
-
 To start preprocessing your dataset, please follow these steps:
 
 1. Download the [shape_predictor_81_face_landmarks.dat](https://github.com/SCLBD/DeepfakeBench/releases/download/v1.0.0/shape_predictor_81_face_landmarks.dat) file. Then, copy the downloaded shape_predictor_81_face_landmarks.dat file into the `./preprocessing/dlib_tools folder`. This file is necessary for Dlib's face detection functionality.
@@ -171,23 +170,43 @@ python rearrange.py
 After running the above line, you will obtain the JSON files for each dataset in the `./preprocessing/dataset_json` folder. The rearranged structure organizes the data in a hierarchical manner, grouping videos based on their labels and data splits (*i.e.,* train, test, validation). Each video is represented as a dictionary entry containing relevant metadata, including file paths, labels, compression levels (if applicable), *etc*. 
 
 
-### 5. Training (TODO)
+### 5. Training and Evaluation
 
 <a href="#top">[Back to top]</a>
 
-To be released.
+**(a). Protocol-1: Same Data Domain, Differenet Forgery Types**
 
+First, you can run the following lines to train a model (*e.g.,* I3D model):
+```
+python3 -m torch.distributed.launch --nproc_per_node=8 training/train.py \
+--detector_path ./training/config/detector/i3d.yaml \
+--train_dataset FSAll_ff \
+--test_dataset FSAll_ff \
+--ddp
+```
 
-### 6. Evaluation
-If you only want to evaluate the detectors to produce the results of the cross-dataset evaluation, you can use the the [`test.py`](./training/test.py) code for evaluation. Here is an example:
+Note, we here perform both training and testing on FSAll_ff (using all FS data of FF domain as the *evaluation set*) to select the best checkpoint. Once finished training, you can use the best checkpoint to evaluate other testing datasets.
 
 ```
 python3 training/test.py \
---detector_path ./training/config/detector/xception.yaml \
---test_dataset "Celeb-DF-v1" "Celeb-DF-v2" "DFDCP" \
---weights_path ./training/weights/xception_best.pth
+--detector_path ./training/config/detector/i3d.yaml \
+--test_dataset "FSAll_ff" "FRAll_ff" "EFSAll_ff" \
+--weights_path ./training/weights/i3d.pth
 ```
-**Note that we have provided the pre-trained weights for each detector (you can download them from the [`link`](https://github.com/SCLBD/DeepfakeBench/releases/tag/v1.0.1)).** Make sure to put these weights in the `./training/weights` folder.
+Then, you can obtain all evaluation results reported in Tab. 3 of the manuscript.
+
+
+
+**(b). Protocol-2: Same Forgery Types, Differenet Data Domain**
+Similarly, you can run the following lines for Protocol-2.
+
+```
+python3 training/test.py \
+--detector_path ./training/config/detector/i3d.yaml \
+--test_dataset "FSAll_cdf" "FRAll_cdf" "EFSAll_cdf" \
+--weights_path ./training/weights/i3d.pth
+```
+Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript.
 
 
 
