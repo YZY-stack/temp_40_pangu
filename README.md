@@ -5,7 +5,7 @@
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="figures/archi.png" style="max-width:60%;">
+  <img src="df40_figs/df40_intro.pdf" style="max-width:60%;">
 </div>
 
 Welcome to our work *DF40*, for next-generation deepfake detection. 
@@ -29,6 +29,13 @@ Welcome to our work *DF40*, for next-generation deepfake detection.
 ---
 
 
+<div align="center"> 
+</div>
+<div style="text-align:center;">
+  <img src="df40_figs/table1.jpg" style="max-width:60%;">
+</div>
+
+
 **Highlight-1: DF40 Dataset**. The key features of our proposed **DF40 dataset** are as follows:
 
 > ✅ **Forgery Diversity**: *DF40* comprises **40** distinct deepfake techniques (both representive and SOTA methods are included), facilialting the detection of nowadays' SOTA deepfakes and AIGCs. We provide **10** face-swapping methods, **13** face-reenactment methods, **12** entire face synthesis methods, and **5** face editing.
@@ -36,6 +43,15 @@ Welcome to our work *DF40*, for next-generation deepfake detection.
 > ✅ **Forgery Realism**: *DF40* includes realistic deepfake data created by highly popular generation software and methods, *e.g.,* HeyGen, MidJourney, DeepFaceLab, to simulate real-world deepfakes. We even include the just-released DiT, SiT, PixArt-$\alpha$, etc.
 > 
 > ✅ **Forgery Scale**: *DF40* offers **million-level** deepfake data scale for both images and videos.
+
+
+
+<div align="center"> 
+</div>
+<div style="text-align:center;">
+  <img src="df40_figs/df40_pipeline.pdf" style="max-width:60%;">
+</div>
+
 
 
 **Highlight-2: Our Evaluation**. 
