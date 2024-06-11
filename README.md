@@ -5,7 +5,7 @@
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="df40_figs/df40_intro.pdf" style="max-width:60%;">
+  <img src="df40_figs/df40_intro.jpg" style="max-width:60%;">
 </div>
 
 Welcome to our work *DF40*, for next-generation deepfake detection. 
@@ -49,7 +49,7 @@ Welcome to our work *DF40*, for next-generation deepfake detection.
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="df40_figs/df40_pipeline.pdf" style="max-width:60%;">
+  <img src="df40_figs/df40_pipeline.jpg" style="max-width:60%;">
 </div>
 
 
