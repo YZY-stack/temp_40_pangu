@@ -100,25 +100,6 @@ The figure below shows the pipeline of four generation methods used in our DF40 
 |                         | 40        | StyleCLIP     |[One-Drive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222041040_link_cuhk_edu_cn/EbKlB_5yBthCrngJl74LSG4BiX6Jwf9ciElzJlD-H-_Vzw?e=eEPuuN)               |       [![styleclip-Example](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/styleclip.jpg)](https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/styleclip.jpg)          |
 
 
-## 📚 Detectors
-<a href="#top">[Back to top]</a>
-
-We perform evaluations using the following 7 detectors:
-
-⭐️  **Detectors** (**7** detectors):
-  - [Xception](./training/detectors/xception_detector.py), [RECCE](./training/detectors/recce_detector.py), [RFM](./training/detectors/rfm_detector.py), [CLIP](./training/detectors/clip_detector.py), [SBI](./training/detectors/sbi_detector.py), [SPSL](./training/detectors/spsl_detector.py), [SRM](./training/detectors/srm_detector.py)
-
-
-|                  | File name                               | Paper                                                                                                                                                                                                                                                                                                                                                         |
-|------------------|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                                             |
-| CLIP            | [clip_detector.py](./training/detectors/clip_detector.py)           | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) ICML 2021                                                                                                                                                                                   |                                                                                                                                                                                                                                                                            |
-| RFM   | [rfm_detector.py](./training/detectors/rfm_detector.py)       | [Representative Forgery Mining for Fake Face Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Representative_Forgery_Mining_for_Fake_Face_Detection_CVPR_2021_paper.pdf) CVPR 2021                                                                                                                                                                                                                                                                   |
-| TimeTransformer    | [timetransformer_detector.py](./training/detectors/timetransfromer_detector.py)         | [Is space-time attention all you need for video understanding?](https://proceedings.mlr.press/v139/bertasius21a/bertasius21a-supp.pdf) ICML 2021                                                       |
-| VideoMAE    | [videomae_detector.py](./training/detectors/videomae_detectors.py)         | [Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training](https://proceedings.neurips.cc/paper_files/paper/2022/file/416f9cb3276121c42eebb86352a4354a-Paper-Conference.pdf) NIPS 2022                                                       |
-| X-CLIP    | [xclip_detector.py](./training/detectors/xclip_detector.py)         | [Expanding Language-Image Pretrained Models for General Video Recognition](https://arxiv.org/pdf/2208.02816) ECCV 2022                                                       |
-
-
 
 ## ⏳ Quick Start
 
@@ -129,7 +110,7 @@ Please run the following script to install the required libraries:
 sh install.sh
 ```
 
-### 3. Preprocessing
+### 2. Preprocessing
 
 <a href="#top">[Back to top]</a>
 
@@ -151,7 +132,7 @@ python preprocess.py
 ```
 
 
-### 4. Rearrangement
+### 3. Rearrangement
 To simplify the handling of different datasets, we propose a unified and convenient way to load them. The function eliminates the need to write separate input/output (I/O) code for each dataset, reducing duplication of effort and easing data management.
 
 After the preprocessing above, you will obtain the processed data (*i.e., frames, landmarks, and masks*) for each dataset you specify. Similarly, you need to set the parameters in `./preprocessing/config.yaml` for each dataset. After that, run the following line:
@@ -163,7 +144,7 @@ python rearrange.py
 After running the above line, you will obtain the JSON files for each dataset in the `./preprocessing/dataset_json` folder. The rearranged structure organizes the data in a hierarchical manner, grouping videos based on their labels and data splits (*i.e.,* train, test, validation). Each video is represented as a dictionary entry containing relevant metadata, including file paths, labels, compression levels (if applicable), *etc*. 
 
 
-### 5. Training and Evaluation
+### 4. Training and Evaluation
 
 <a href="#top">[Back to top]</a>
 
