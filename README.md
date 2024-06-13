@@ -212,7 +212,7 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/fs_visual.png" style="max-width:60%;">
+  <img src="./df40_figs/fs_visual.png" style="max-width:60%;">
 </div>
 
 
@@ -221,7 +221,7 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/fr_visual.png" style="max-width:60%;">
+  <img src="./df40_figs/fr_visual.png" style="max-width:60%;">
 </div>
 
 3. Example samples created by **EFS (entire face synthesis)** methods:
@@ -229,7 +229,7 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/efs_visual.png" style="max-width:60%;">
+  <img src="./df40_figs/efs_visual.png" style="max-width:60%;">
 </div>
 
 4. Example samples created by **FE (face editing)** methods:
@@ -237,6 +237,6 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 <div align="center"> 
 </div>
 <div style="text-align:center;">
-  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/unknown_visual.png" style="max-width:60%;">
+  <img src="./df40_figs/unknown_visual.png" style="max-width:60%;">
 </div>
 
