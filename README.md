@@ -210,6 +210,44 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 
 
 
+
+## 👀 More visual examples
+<a href="#top">[Back to top]</a>
+
+1. Example samples created by **FS (face-swapping)** methods:
+
+<div align="center"> 
+</div>
+<div style="text-align:center;">
+  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/fs_visual.png" style="max-width:60%;">
+</div>
+
+
+2. Example samples created by **FR (face-reenactment)** methods:
+
+<div align="center"> 
+</div>
+<div style="text-align:center;">
+  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/fr_visual.png" style="max-width:60%;">
+</div>
+
+3. Example samples created by **EFS (entire face synthesis)** methods:
+
+<div align="center"> 
+</div>
+<div style="text-align:center;">
+  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/efs_visual.png" style="max-width:60%;">
+</div>
+
+4. Example samples created by **FE (face editing)** methods:
+
+<div align="center"> 
+</div>
+<div style="text-align:center;">
+  <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/unknown_visual.png" style="max-width:60%;">
+</div>
+
+
 <!-- 
 ## 🛡️ License
 
