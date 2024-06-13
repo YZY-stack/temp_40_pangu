@@ -11,22 +11,6 @@ Welcome to our work *DF40*, for next-generation deepfake detection.
 </div>
 
 
-
-<font size=4><b> Table of Contents </b></font>
-
-- [Features](#-features)
-- [Quick Start](#-quick-start)
-  - [Installation](#1-installation)
-  - [Download Data](#2-download-data)
-  - [Preprocessing (optional)](#3-preprocessing-optional)
-  - [Rearrangement](#4-rearrangement)
-  - [Training (optional)](#4-training-optional)
-  - [Evaluation](#5-evaluation)
-- [Supported Detectors](#-supported-detectors)
-- [Results](#-results)
-- [Citation](#-citation)
-- [Copyright](#%EF%B8%8F-license)
-
 ---
 
 
@@ -246,3 +230,4 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 <div style="text-align:center;">
   <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/unknown_visual.png" style="max-width:60%;">
 </div>
+
