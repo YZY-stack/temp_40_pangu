@@ -246,16 +246,3 @@ Then, you can obtain all evaluation results reported in Tab. 4 of the manuscript
 <div style="text-align:center;">
   <img src="https://github.com/YZY-stack/temp_40_pangu/releases/download/visual_example/unknown_visual.png" style="max-width:60%;">
 </div>
-
-
-<!-- 
-## 🛡️ License
-
-<a href="#top">[Back to top]</a>
-
-
-This repository is licensed by [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) under Creative Commons Attribution-NonCommercial 4.0 International Public License (identified as [CC BY-NC-4.0 in SPDX](https://spdx.org/licenses/)). More details about the license could be found in [LICENSE](./LICENSE).
-
-This project is built by the Secure Computing Lab of Big Data (SCLBD) at The School of Data Science (SDS) of The Chinese University of Hong Kong, Shenzhen, directed by Professor [Baoyuan Wu](https://sites.google.com/site/baoyuanwu2015/home). SCLBD focuses on the research of trustworthy AI, including backdoor learning, adversarial examples, federated learning, fairness, etc.
-
-If you have any suggestions, comments, or wish to contribute code or propose methods, we warmly welcome your input. Please contact us at wubaoyuan@cuhk.edu.cn or yanzhiyuan1114@gmail.com. We look forward to collaborating with you in pushing the boundaries of deepfake detection. -->
